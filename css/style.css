@@ -1,10 +1,59 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: #514945;
+  font-size: 16px;
+}
+.wrapper_70 {
+  width: 70%;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #d55c5a;
+}
+.nav_logo {
+  height: 100px;
+  background-color: #ebd4cc;
+}
+
+/* JUMBO */
+.jumbo {
+  margin: 0 auto;
+  height: 500px;
+  background-color: #894242;
+}
+
+/* NAV BOTTOM */
+.bottom_nav {
+  margin: 0 auto;
+  height: 100px;
+  background-color: #f5918f;
+}
+
+/* MAIN */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* QUERY */
+@media screen and (max-width: 992px) {
+  .wrapper_70 {
+    width: 100%;
+  }
 }
